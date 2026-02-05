@@ -1,12 +1,25 @@
 site_name: Global Security Community Wiki
 site_description: Global Security Community Wiki Documentation
 site_author: Global Security Community
+site_url: https://globalsecurity.community/
 
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,10 +30,20 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - header.autohide
 
 nav:
   - Home: index.md
-  - Code of Conduct: code_of_conduct.md
+  - Getting Started:
+    - Start a New Chapter: start-new-chapter.md
+    - Chapter Onboarding: chapter-onboarding.md
+  - Chapter Leadership:
+    - Chapter Leadership Guide: chapter-leadership-guide.md
+  - Code of Conduct: code-of-conduct.md
+  - Branding:
+    - Community Branding Standards: community-branding-standards.md
+  - Resources:
+    - Event Photography Checklist: event-photography-checklist.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -44,5 +67,7 @@ plugins:
 
 extra:
   social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/mDRWDkCNPq
     - icon: fontawesome/brands/github
       link: https://github.com/Global-Security-Community

@@ -1,19 +1,51 @@
-# Welcome to Global Security Community Wiki
+# Global Security Community Wiki
 
-Welcome to the Global Security Community Wiki! This wiki will contain all the information you need to host a Global Security Community event in your city. 
+![Global Security Community Logo](https://globalsecurity.community/assets/GlobalSecurityCommunityLogo.png)
 
-For 2026, we are going to continue with the Global Security Bootcamp format and scale it out allowing communities to form around their passion for Cyber Security in a Microsoft aligned context.
+Welcome to the Global Security Community Wiki! This is your comprehensive resource for starting and running a Global Security Bootcamp chapter in your city.
 
-Expect templates and checklists, details on how you too can host an event in your community!
+Whether you're looking to launch a new chapter, onboard your organizing team, or host engaging community events, you'll find all the guidance, templates, and best practices you need here.
 
-## About
+## What You'll Find Here
 
-This wiki is designed to be a comprehensive resource for those who want to host their own events.  It will describe how you can go from idea to thank you's at the end of a successful event!
+### Getting Started
 
-## Getting Started
+Everything you need to know about launching your own Global Security chapter:
 
-Details coming soon!
+- [Start a New Chapter](../start-new-chapter.md) - Learn the guidelines and requirements for starting a chapter
+- [Chapter Onboarding](../chapter-onboarding.md) - Complete the onboarding process to set up your chapter infrastructure
+
+### Chapter Leadership
+
+Practical guidance for organizing successful events:
+
+- [Chapter Leadership Guide](../chapter-leadership-guide.md) - Step-by-step event planning and execution, plus tips for engaging your community
+
+### Branding
+
+Maintain visual consistency across your chapter:
+
+- [Community Branding Standards](../community-branding-standards.md) - Logo usage, color palette, typography, and design guidelines
+
+### Resources
+
+Tools to help you capture and share your events:
+
+- [Event Photography Checklist](../event-photography-checklist.md) - Guidance on documenting your gatherings and leveraging photos for promotion
+
+### Code of Conduct
+
+Our community standards and values:
+
+- Review our [Code of Conduct](../code-of-conduct.md) to understand the values and expectations that guide our community
+
+## Getting Help
+
+Have questions? Connect with us:
+
+- **Discord**: Join our [Discord Community](https://discord.gg/mDRWDkCNPq) to chat with other chapter leaders and get support
+- **GitHub**: Check out our [GitHub Organization](https://github.com/Global-Security-Community) for resources and to report issues
 
 ## Contributing
 
-We welcome contributions from the community! Reach out to anothergeorgecoldham or antoporter on github!
+We welcome contributions from the community! If you have improvements, corrections, or new resources to share, please reach out to us on GitHub or Discord. This wiki is built by and for the Global Security Community.
