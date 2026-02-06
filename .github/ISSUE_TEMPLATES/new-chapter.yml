@@ -14,7 +14,7 @@ body:
         
         **All fields marked with an asterisk (*) are required.**
 
-  - type: text
+  - type: input
     id: your_name
     attributes:
       label: Your Name *
@@ -23,25 +23,27 @@ body:
     validations:
       required: true
 
-  - type: email
+  - type: input
     id: your_email
     attributes:
       label: Email Address *
       description: Your primary email address for chapter communications
       placeholder: john@example.com
+      type: email
     validations:
       required: true
 
-  - type: url
+  - type: input
     id: linkedin_url
     attributes:
       label: LinkedIn Profile URL *
       description: Link to your LinkedIn profile
       placeholder: https://www.linkedin.com/in/johndoe/
+      type: url
     validations:
       required: true
 
-  - type: text
+  - type: input
     id: discord_username
     attributes:
       label: Discord Username *
@@ -58,11 +60,10 @@ body:
       placeholder: |
         Jane Smith - jane@example.com
         Mark Johnson - mark@example.com
-      value: ""
     validations:
       required: true
 
-  - type: text
+  - type: input
     id: chapter_city
     attributes:
       label: Chapter City *
@@ -71,7 +72,7 @@ body:
     validations:
       required: true
 
-  - type: text
+  - type: input
     id: chapter_country
     attributes:
       label: Chapter Country *
@@ -110,12 +111,13 @@ body:
     validations:
       required: true
 
-  - type: url
+  - type: input
     id: meetup_url
     attributes:
       label: Meetup Group URL
       description: If you have an existing Meetup group, provide the URL here (optional if you answered "No" above)
       placeholder: https://www.meetup.com/global-security-mycity/
+      type: url
 
   - type: checkboxes
     id: agreements
@@ -140,4 +142,3 @@ body:
       label: Additional Information
       description: Any additional information you'd like us to know about your chapter plans
       placeholder: Tell us about your vision for the chapter, why you want to start it, any prior experience organizing events, etc.
-      value: ""
