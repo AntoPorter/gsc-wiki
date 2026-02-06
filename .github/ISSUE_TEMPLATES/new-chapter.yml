@@ -17,7 +17,7 @@ body:
   - type: input
     id: your_name
     attributes:
-      label: Your Name *
+      label: Your Name
       description: Your full name
       placeholder: John Doe
     validations:
@@ -26,7 +26,7 @@ body:
   - type: input
     id: your_email
     attributes:
-      label: Email Address *
+      label: Email Address
       description: Your primary email address for chapter communications
       placeholder: john@example.com
     validations:
@@ -35,7 +35,7 @@ body:
   - type: input
     id: linkedin_url
     attributes:
-      label: LinkedIn Profile URL *
+      label: LinkedIn Profile URL
       description: Link to your LinkedIn profile
       placeholder: https://www.linkedin.com/in/johndoe/
     validations:
@@ -44,7 +44,7 @@ body:
   - type: input
     id: discord_username
     attributes:
-      label: Discord Username *
+      label: Discord Username
       description: Your Discord username (without the # or discriminator)
       placeholder: johndoe
     validations:
@@ -53,18 +53,18 @@ body:
   - type: textarea
     id: co_organisers
     attributes:
-      label: Co-Organizers Name & Email *
+      label: Co-Organizers Name & Email
       description: List all co-organizers with their names and email addresses
       placeholder: |
         Jane Smith - jane@example.com
-        Mark Johnson - mark@example.com
+        Mark Johnson - mark@domain.com
     validations:
       required: true
 
   - type: input
     id: chapter_city
     attributes:
-      label: Chapter City *
+      label: Chapter City
       description: The city where your chapter will be based
       placeholder: Melbourne
     validations:
@@ -73,7 +73,7 @@ body:
   - type: input
     id: chapter_country
     attributes:
-      label: Chapter Country *
+      label: Chapter Country
       description: The country where your chapter will be based
       placeholder: Australia
     validations:
@@ -82,7 +82,7 @@ body:
   - type: dropdown
     id: languages_spoken
     attributes:
-      label: Primary Language Spoken *
+      label: Primary Language Spoken
       description: The primary language for chapter events and communications
       options:
         - English
@@ -101,7 +101,7 @@ body:
   - type: dropdown
     id: meetup_group
     attributes:
-      label: Do you have an existing Meetup group? *
+      label: Do you have an existing Meetup group?
       description: Are you planning to use an existing Meetup group or create a new one?
       options:
         - "No, I will create a new one"
@@ -119,7 +119,7 @@ body:
   - type: checkboxes
     id: agreements
     attributes:
-      label: Agreements *
+      label: Agreements
       description: Please confirm that you agree to all of the following
       options:
         - label: I commit to organizing the yearly Global Security Bootcamp
