@@ -115,7 +115,7 @@ body:
       label: Meetup Group URL
       description: If you have an existing Meetup group, provide the URL here (optional if you answered "No" above)
       placeholder: https://www.meetup.com/global-security-mycity/
-      type: url
+
   - type: checkboxes
     id: agreements
     attributes:
