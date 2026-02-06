@@ -1,0 +1,143 @@
+name: Start a New Chapter
+description: Apply to start a new Global Security Community chapter in your city
+title: "[New Chapter] "
+labels: ["new-chapter", "chapter-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Start a New Global Security Chapter
+        
+        Thank you for your interest in starting a Global Security Community chapter! Please fill out this form with all the required information. We review chapter requests regularly and will get back to you ASAP.
+        
+        **All fields marked with an asterisk (*) are required.**
+
+  - type: text
+    id: your_name
+    attributes:
+      label: Your Name *
+      description: Your full name
+      placeholder: John Doe
+    validations:
+      required: true
+
+  - type: email
+    id: your_email
+    attributes:
+      label: Email Address *
+      description: Your primary email address for chapter communications
+      placeholder: john@example.com
+    validations:
+      required: true
+
+  - type: url
+    id: linkedin_url
+    attributes:
+      label: LinkedIn Profile URL *
+      description: Link to your LinkedIn profile
+      placeholder: https://www.linkedin.com/in/johndoe/
+    validations:
+      required: true
+
+  - type: text
+    id: discord_username
+    attributes:
+      label: Discord Username *
+      description: Your Discord username (without the # or discriminator)
+      placeholder: johndoe
+    validations:
+      required: true
+
+  - type: textarea
+    id: co_organisers
+    attributes:
+      label: Co-Organizers Name & Email *
+      description: List all co-organizers with their names and email addresses
+      placeholder: |
+        Jane Smith - jane@example.com
+        Mark Johnson - mark@example.com
+      value: ""
+    validations:
+      required: true
+
+  - type: text
+    id: chapter_city
+    attributes:
+      label: Chapter City *
+      description: The city where your chapter will be based
+      placeholder: Melbourne
+    validations:
+      required: true
+
+  - type: text
+    id: chapter_country
+    attributes:
+      label: Chapter Country *
+      description: The country where your chapter will be based
+      placeholder: Australia
+    validations:
+      required: true
+
+  - type: dropdown
+    id: languages_spoken
+    attributes:
+      label: Primary Language Spoken *
+      description: The primary language for chapter events and communications
+      options:
+        - English
+        - Spanish
+        - French
+        - German
+        - Chinese
+        - Japanese
+        - Portuguese
+        - Italian
+        - Dutch
+        - Other (please specify in Additional Info)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: meetup_group
+    attributes:
+      label: Do you have an existing Meetup group? *
+      description: Are you planning to use an existing Meetup group or create a new one?
+      options:
+        - "No, I will create a new one"
+        - "Yes, I have an existing group"
+    validations:
+      required: true
+
+  - type: url
+    id: meetup_url
+    attributes:
+      label: Meetup Group URL
+      description: If you have an existing Meetup group, provide the URL here (optional if you answered "No" above)
+      placeholder: https://www.meetup.com/global-security-mycity/
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Agreements *
+      description: Please confirm that you agree to all of the following
+      options:
+        - label: I commit to organizing the yearly Global Security Bootcamp
+          required: true
+        - label: The chapter events will be non-profit and open to everyone
+          required: true
+        - label: I will not use the chapter for commercial activities
+          required: true
+        - label: I will enforce a safe environment for attendees by adopting and enforcing the Global Security Code of Conduct
+          required: true
+        - label: I will wait for official approval from the Global Security Community before starting to build resources online
+          required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Any additional information you'd like us to know about your chapter plans
+      placeholder: Tell us about your vision for the chapter, why you want to start it, any prior experience organizing events, etc.
+      value: ""
