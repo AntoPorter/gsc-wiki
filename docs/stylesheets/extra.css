@@ -1,0 +1,90 @@
+:root {
+  --md-primary-fg-color: #FFFFFF;
+  --md-primary-fg-color--light: #F5F5F5;
+  --md-primary-fg-color--dark: #E0E0E0;
+  --md-accent-fg-color: #1DB59A;
+  --md-accent-fg-color--transparent: rgba(29, 181, 154, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1DB59A;
+  --md-primary-fg-color--light: #2FD4B3;
+  --md-primary-fg-color--dark: #15907A;
+  --md-accent-fg-color: #F39237;
+  --md-accent-fg-color--transparent: rgba(243, 146, 55, 0.1);
+  
+  --md-code-bg-color: #1e1e1e;
+  --md-code-fg-color: #e0e0e0;
+}
+
+/* Light mode specific adjustments */
+[data-md-color-scheme="light"] {
+  --md-code-bg-color: #f5f5f5;
+  --md-code-fg-color: #333333;
+  --md-typeset-a-color: #1DB59A;
+  --md-typeset-a-color--hover: #F39237;
+}
+
+/* Header and navigation text - black for light mode */
+[data-md-color-scheme="light"] .md-header {
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-header__title {
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-nav__link,
+[data-md-color-scheme="light"] .md-tabs__link {
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-nav__link:hover,
+[data-md-color-scheme="light"] .md-tabs__link:hover {
+  color: #1DB59A;
+}
+
+[data-md-color-scheme="light"] .md-nav__link--active {
+  color: #1DB59A;
+  border-color: #1DB59A;
+}
+
+/* Icons in light mode header - black */
+[data-md-color-scheme="light"] .md-header__button .md-icon,
+[data-md-color-scheme="light"] .md-header .md-icon {
+  color: #000000;
+}
+
+/* Search bar styling for light mode */
+[data-md-color-scheme="light"] .md-search__input {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+}
+
+[data-md-color-scheme="light"] .md-search__input::placeholder {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+/* Theme toggle button - make visible in light mode */
+[data-md-color-scheme="light"] .md-header__button[title*="Switch"] {
+  color: #000000;
+}
+
+/* Hyperlink colors in light mode */
+[data-md-color-scheme="light"] .md-typeset a {
+  color: #1DB59A;
+}
+
+[data-md-color-scheme="light"] .md-typeset a:hover {
+  color: #F39237 !important;
+}
+
+/* Custom accent highlight */
+.md-button--primary {
+  background-color: #1DB59A;
+  color: #ffffff;
+}
+
+.md-button--primary:hover {
+  background-color: #15907A;
+}

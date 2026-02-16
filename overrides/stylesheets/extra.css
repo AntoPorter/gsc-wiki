@@ -1,7 +1,7 @@
 :root {
-  --md-primary-fg-color: #0F3A66;
-  --md-primary-fg-color--light: #1A5A8F;
-  --md-primary-fg-color--dark: #092A4F;
+  --md-primary-fg-color: #FFFFFF;
+  --md-primary-fg-color--light: #F5F5F5;
+  --md-primary-fg-color--dark: #E0E0E0;
   --md-accent-fg-color: #1DB59A;
   --md-accent-fg-color--transparent: rgba(29, 181, 154, 0.1);
 }
@@ -21,7 +21,7 @@
 [data-md-color-scheme="light"] {
   --md-code-bg-color: #f5f5f5;
   --md-code-fg-color: #333333;
-  --md-typeset-a-color: #0F3A66;
+  --md-typeset-a-color: #1DB59A;
 }
 
 /* Custom accent highlight */

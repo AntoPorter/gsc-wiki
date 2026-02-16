@@ -24,15 +24,6 @@ body:
       required: true
 
   - type: input
-    id: your_email
-    attributes:
-      label: Email Address
-      description: Your primary email address for chapter communications
-      placeholder: john@example.com
-    validations:
-      required: true
-
-  - type: input
     id: linkedin_url
     attributes:
       label: LinkedIn Profile URL
@@ -45,7 +36,7 @@ body:
     id: discord_username
     attributes:
       label: Discord Username
-      description: Your Discord username (without the # or discriminator)
+      description: Your Discord username (without the '#' or discriminator)
       placeholder: johndoe
     validations:
       required: true
@@ -54,10 +45,10 @@ body:
     id: co_organisers
     attributes:
       label: Co-Organizers Name & Email
-      description: List all co-organizers with their names and email addresses
+      description: List all co-organizers with their names and LinkedIn Profile URLs
       placeholder: |
-        Jane Smith - jane@example.com
-        Mark Johnson - mark@domain.com
+        Jane Smith - https://www.linkedin.com/in/jsmith/
+        Mark Johnson - https://www.linkedin.com/in/mjohnson/
     validations:
       required: true
 
@@ -97,24 +88,6 @@ body:
         - Other (please specify in Additional Info)
     validations:
       required: true
-
-  - type: dropdown
-    id: meetup_group
-    attributes:
-      label: Do you have an existing Meetup group?
-      description: Are you planning to use an existing Meetup group or create a new one?
-      options:
-        - "No, I will create a new one"
-        - "Yes, I have an existing group"
-    validations:
-      required: true
-
-  - type: input
-    id: meetup_url
-    attributes:
-      label: Meetup Group URL
-      description: If you have an existing Meetup group, provide the URL here (optional if you answered "No" above)
-      placeholder: https://www.meetup.com/global-security-mycity/
 
   - type: checkboxes
     id: agreements
