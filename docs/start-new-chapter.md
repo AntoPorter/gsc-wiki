@@ -52,16 +52,95 @@ Chapters exist for community benefit, not profit. Commercial ventures and moneti
 
 ## Process Overview
 
-Interested in becoming a chapter leader?
+### Step 1: Connect with the Community
 
-- **Connect with our community first:** [Join our Discord Community](https://discord.gg/mDRWDkCNPq) to introduce yourself and engage with experienced chapter organizers. Learning from peers who've successfully launched chapters is invaluable.
-- **Submit your chapter proposal:** [Create a GitHub Issue](https://github.com/Global-Security-Community/wiki/issues/new) with your chapter request when you're ready to formalize your plans.
-- **Await review:** We evaluate chapter proposals on a regular schedule. Expect a response within 30 days of your submission.
-- **Receive your launch materials:** Upon approval, you'll receive a comprehensive welcome kit with chapter resources and access credentials.
+[Join our Discord Community](https://discord.gg/mDRWDkCNPq) to introduce yourself and engage with experienced chapter organizers. Learning from peers who've successfully launched chapters is invaluable.
+
+### Step 2: Submit Your Chapter Proposal
+
+When you're ready to formalize your plans, submit your chapter proposal using our GitHub Issue form:
+
+1. Go to the [Global Security Community Wiki repository](https://github.com/Global-Security-Community/wiki)
+2. Click **Issues** → **New Issue**
+3. Select **"Start a New Chapter"** from the issue templates
+4. Fill out the form with your information, including:
+   - Your name, email, LinkedIn profile, and Discord username
+   - Co-organizer details (names and emails)
+   - Your chapter location (city and country)
+   - Language preferences
+   - Existing Meetup group information (if applicable)
+   - Agreement confirmations
+5. Submit the issue
+
+Your proposal will be automatically labeled as `new-chapter` and assigned for review.
+
+### Step 3: Await Review
+
+We evaluate chapter proposals on a regular schedule. **Expect a response within 30 days** of your submission. The Global Security Community leadership team will review your proposal and provide feedback or approval directly on your GitHub issue.
+
+### Step 4: Receive Your Launch Materials
+
+Upon approval, you'll receive:
+- A welcome message with next steps
+- Access to chapter resources and documentation
+- Invitation to the chapter leadership coordination channel on Discord
+- Setup instructions for your chapter repository and infrastructure
 
 ---
 
-## Frequently Asked Questions
+## Submitting Your Chapter Events
+
+Once your chapter is approved and established, you'll begin planning and hosting events. To ensure consistency, visibility, and promotional support from the community, each event must be formally submitted through our Chapter Event submission process.
+
+### Prerequisites for Event Submission
+
+Before submitting an event for listing on the Global Security Community, you must have completed the following setup:
+
+1. **Sessionize CFP (Call for Papers)** - Set up your Sessionize account and create an active Call for Papers for your event. This allows speakers to propose sessions and manages your event's technical content.
+   - [Create a Sessionize account](https://sessionize.com/)
+   - Set up your event and CFP with submission deadlines and speaker guidelines
+
+2. **Ticketing Platform** - Establish a ticketing presence on one of the supported platforms:
+   - **Eventbrite** - Traditional ticketing platform with analytics
+   - **Humanitix** - Community-focused platform with a giving component
+   - **Meetup** - If leveraging existing Meetup infrastructure
+   - **Custom solution** - Your own event management platform
+
+3. **Event Details Finalized** - Have confirmed details for:
+   - Venue name and address
+   - Event date, time, and format (in-person, hybrid, or virtual)
+   - Expected attendance numbers
+   - Organization committee (minimum 3 people: primary organizer + 2 co-organizers)
+
+### Submitting a Chapter Event
+
+Once your prerequisites are in place:
+
+1. Go to the [Global Security Community Wiki repository](https://github.com/Global-Security-Community/wiki)
+2. Click **Issues** → **New Issue**
+3. Select **"Submit Chapter Event"** from the issue templates
+4. Fill out the form with your event details, including:
+   - **Chapter Verification:** City and country
+   - **Event Core Details:** Title, date, time, type, and description
+   - **Venue Information:** Name, address, expected attendance, format, and accessibility features
+   - **Infrastructure Setup:** 
+     - Sessionize CFP URL (required)
+     - Ticketing platform and registration link (required)
+   - **Organization Committee:** Primary organizer and minimum 2 co-organizers with roles
+   - **Event Page Description:** Detailed information (markdown supported) that will be used to create your event page
+   - **Code of Conduct Agreements:** Confirm adherence to community standards
+5. Submit the issue
+
+Your event submission will be automatically labeled as `chapter-event` and reviewed by the community team.
+
+### Event Listing Timeline
+
+- **Submission:** Submit your event issue
+- **Review:** Community team validates all infrastructure (Sessionize, ticketing, organizers) within 5-7 business days
+- **Event Page Creation:** Upon approval, your event page will be created and promoted across community channels
+- **Promotion:** Event will be featured in newsletters, Discord, and on the Global Security Community website
+
+---
 
 **Question: What are the financial requirements for chapter leadership?**
 
