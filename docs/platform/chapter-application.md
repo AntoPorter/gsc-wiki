@@ -14,13 +14,16 @@ Applicants provide the following information:
 |-------|----------|---------|
 | Full Name | Yes | Identification |
 | Email | Yes | Communication and Gravatar avatar |
-| LinkedIn Profile | Yes | Professional verification |
+| LinkedIn Profile | No | Social link on chapter page |
+| GitHub Profile | No | Social link on chapter page |
 | City | Yes | Chapter location |
 | Country | Yes | Chapter location |
 | Why do you want to lead a chapter? | Yes | Motivation assessment |
-| Relevant experience | No | Background information |
+| Existing Community | No | Background information |
 | Co-lead Name | No | Optional second chapter lead |
 | Co-lead Email | No | Optional second chapter lead |
+| Co-lead LinkedIn | No | Social link on chapter page |
+| Co-lead GitHub | No | Social link on chapter page |
 
 ## Application Process
 
@@ -39,7 +42,8 @@ Applicants provide the following information:
 Approved chapters get a dedicated page featuring:
 
 - Chapter city and country
-- Chapter lead name(s) with Gravatar profile images
+- Chapter lead name(s) with Gravatar profile images (see [Setting Up Your Profile Photo](chapters.md#setting-up-your-profile-photo-gravatar))
+- Social links (GitHub, LinkedIn) if provided
 - Upcoming events for the chapter
 - Link to the chapter's Discord channel
 
