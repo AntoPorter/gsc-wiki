@@ -1,6 +1,8 @@
 # Global Security Community Wiki
 
-![Global Security Community Logo](https://globalsecurity.community/assets/GlobalSecurityCommunityLogo.png)
+<div style="text-align: center; margin: 1rem 0 2rem;">
+  <img src="assets/logo.png" alt="Global Security Community Logo" style="max-width: 400px; width: 100%; height: auto;">
+</div>
 
 Welcome to the Global Security Community Wiki! This is your comprehensive resource for starting and running a Global Security Bootcamp chapter in your city.
 
