@@ -27,6 +27,20 @@ Maintain visual consistency across your chapter:
 
 - [Community Branding Standards](./community-branding-standards.md) - Logo usage, color palette, typography, and design guidelines
 
+### Platform Guide
+
+Learn how to use the GSC website to manage your chapter and events:
+
+- [Authentication & Accounts](./platform/authentication.md) - Sign up, sign in, and understand user roles
+- [Chapters](./platform/chapters.md) - Browse active chapters worldwide
+- [Chapter Lead Application](./platform/chapter-application.md) - Apply to lead a chapter through the website
+- [Events](./platform/events.md) - Browse and discover community events
+- [Event Registration](./platform/registration.md) - How attendees register for events
+- [My Tickets](./platform/my-tickets.md) - View your tickets and QR codes
+- [Chapter Dashboard](./platform/dashboard.md) - Create events, manage volunteers, and track attendance
+- [Check-In Scanner](./platform/scanner.md) - QR code scanning for event-day check-in
+- [Digital Badges](./platform/badges.md) - Issue and download participation badges
+
 ### Resources
 
 Tools to help you capture and share your events:
