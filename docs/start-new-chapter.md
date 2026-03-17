@@ -56,35 +56,34 @@ Chapters exist for community benefit, not profit. Commercial ventures and moneti
 
 [Join our Discord Community](https://discord.gg/mDRWDkCNPq) to introduce yourself and engage with experienced chapter organizers. Learning from peers who've successfully launched chapters is invaluable.
 
-### Step 2: Submit Your Chapter Proposal
+### Step 2: Submit Your Chapter Application
 
-When you're ready to formalize your plans, submit your chapter proposal using our GitHub Issue form:
+When you're ready to formalize your plans, submit your application through the GSC website:
 
-1. Go to the [Global Security Community Wiki repository](https://github.com/Global-Security-Community/wiki)
-2. Click **Issues** → **New Issue**
-3. Select **"Start a New Chapter"** from the issue templates
-4. Fill out the form with your information, including:
-   - Your name, email, LinkedIn profile, and Discord username
-   - Co-organizer details (names and emails)
-   - Your chapter location (city and country)
-   - Language preferences
-   - Existing Meetup group information (if applicable)
-   - Agreement confirmations
-5. Submit the issue
+1. Go to [globalsecurity.community/chapters/apply/](https://globalsecurity.community/chapters/apply/)
+2. Fill out the application form with your information, including:
+    - Your name, email, LinkedIn profile, and GitHub profile
+    - Co-lead details (optional but recommended)
+    - Your chapter location (city and country)
+3. Submit the application
 
-Your proposal will be automatically labeled as `new-chapter` and assigned for review.
+Your application will be received by the GSC team and a notification posted to Discord for review.
 
 ### Step 3: Await Review
 
-We evaluate chapter proposals on a regular schedule. **Expect a response within 30 days** of your submission. The Global Security Community leadership team will review your proposal and provide feedback or approval directly on your GitHub issue.
+We evaluate chapter applications on a regular schedule. **Expect a response within 30 days** of your submission. The Global Security Community leadership team will review your application and reach out with feedback or approval.
 
-### Step 4: Receive Your Launch Materials
+### Step 4: Get Set Up Automatically
 
-Upon approval, you'll receive:
-- A welcome message with next steps
-- Access to chapter resources and documentation
-- Invitation to the chapter leadership coordination channel on Discord
-- Setup instructions for your chapter repository and infrastructure
+Upon approval, the following happens automatically:
+
+- **Chapter page** — A dedicated page is created for your chapter at `globalsecurity.community/chapters/{your-city}/`, featuring your lead names, profile photos (via [Gravatar](https://gravatar.com)), and social links
+- **Admin access** — Your email is registered for the admin role, giving you access to the [Chapter Dashboard](platform/dashboard.md) where you can create events, manage attendance, and edit your chapter details
+- **Discord channel** — A channel is created for your chapter on the GSC Discord server
+- **Chapters listing** — Your chapter appears on the [Chapters page](https://globalsecurity.community/chapters/)
+
+!!! tip
+    Set up your [Gravatar](https://gravatar.com) account using the same email you applied with — your profile photo will automatically appear on your chapter page.
 
 ---
 

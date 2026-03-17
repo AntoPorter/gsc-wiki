@@ -5,6 +5,9 @@ site_url: https://globalsecurity.community/
 
 theme:
   name: material
+  font: false
+  favicon: assets/favicon.svg
+  logo: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: light
@@ -39,6 +42,16 @@ nav:
     - Chapter Onboarding: chapter-onboarding.md
   - Chapter Leadership:
     - Chapter Leadership Guide: chapter-leadership-guide.md
+  - Platform Guide:
+    - Authentication & Accounts: platform/authentication.md
+    - Chapters: platform/chapters.md
+    - Chapter Lead Application: platform/chapter-application.md
+    - Events: platform/events.md
+    - Event Registration: platform/registration.md
+    - My Tickets: platform/my-tickets.md
+    - Chapter Dashboard: platform/dashboard.md
+    - Check-In Scanner: platform/scanner.md
+    - Digital Badges: platform/badges.md
   - Code of Conduct: code-of-conduct.md
   - Branding:
     - Community Branding Standards: community-branding-standards.md

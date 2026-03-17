@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ config.site_url }}assets/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="{{ config.site_url }}assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ config.site_url }}assets/favicon-96x96.png">
+  <link rel="shortcut icon" href="{{ config.site_url }}assets/favicon.ico">
+{% endblock %}
+
 {% block content %}
   {{ super() }}
 {% endblock %}

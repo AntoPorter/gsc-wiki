@@ -1,61 +1,64 @@
 # Chapter Onboarding
 
-Welcome to the Global Security Community! This guide covers all the steps needed to establish your chapter and prepare for launch.
+Welcome to the Global Security Community! Once your chapter application is approved, most of your infrastructure is set up automatically. This guide covers the remaining steps to prepare for launch.
 
-## 1. Prepare Your Infrastructure
+## 1. Your Chapter Infrastructure
 
-### Set Up Your GitHub Repository
+When your application is approved, the following is created for you automatically:
 
-- Create a dedicated GitHub repository for your chapter (e.g., `global-security-[city-name]`)
-- Use this repository to manage chapter information, event planning, resources, and documentation
-- This serves as your central hub for chapter operations and provides transparency for your community
+### Chapter Page
 
-### Connect on Discord
+Your chapter gets a dedicated page on the GSC website at `globalsecurity.community/chapters/{your-city}/`. This page displays:
+
+- Your chapter name and location
+- Chapter leads with profile photos and social links
+- Upcoming events
+
+You can update your chapter information at any time from the [Dashboard](platform/dashboard.md) — see the **Edit Chapter** section.
+
+### Admin Dashboard Access
+
+Your email is registered as an admin, giving you access to the [Chapter Dashboard](platform/dashboard.md) where you can:
+
+- **Create events** — Set up events with title, date, location, capacity, and optional Sessionize integration
+- **Manage attendance** — View registrations, check in attendees, assign roles, and export CSV reports
+- **Edit your chapter** — Update chapter leads (up to 4), social links (GitHub, LinkedIn, Twitter/X, website)
+- **Issue badges** — Send digital participation badges to attendees after events
+
+### Discord Channel
+
+A dedicated channel is created for your chapter on the [GSC Discord server](https://discord.gg/mDRWDkCNPq). This is your space for chapter-specific discussions and coordination.
+
+## 2. Set Up Your Profile Photos
+
+Chapter lead profile photos are powered by [Gravatar](https://gravatar.com) (Globally Recognized Avatar):
+
+1. Go to [gravatar.com](https://gravatar.com) and create a free account
+2. **Use the same email address** you used in your chapter application
+3. Upload a professional profile photo
+4. Your photo will automatically appear on your chapter page — no code changes needed
+
+See the [Chapters documentation](platform/chapters.md#setting-up-your-profile-photo-gravatar) for more details.
+
+## 3. Connect on Discord
 
 - Join the Global Security Discord server: [discord.gg/mDRWDkCNPq](https://discord.gg/mDRWDkCNPq)
-- Request to join the chapter leads channel by posting your chapter name and Discord username in the #introductions channel
-- This discord server primarily is the hub for announcements, updates, peer support, and resource sharing amongst chapter leaders
+- Introduce yourself in your chapter's channel
+- Join the chapter leads coordination channel for peer support and announcements
 
-## 2. Document Your Chapter Profile
-
-In your GitHub repository, create a README file with the following information:
-
-### Chapter Information
-
-- Write a concise description of your chapter's mission and focus
-- Include relevant details about your geographic coverage area
-- Add links to your event page, social media, and communication channels
-
-### Leadership Team
-
-- List all chapter organizers and co-leads
-- Include a brief bio for each leader (optional)
-- Add social media handles (LinkedIn, Twitter/X, etc.) where applicable
-- Link to their GitHub profiles if available
-
-## 3. Establish Your Social Media Presence
+## 4. Establish Your Social Media Presence
 
 Building visibility is crucial for chapter growth. We recommend establishing a presence on professional and social networks to reach potential members.
 
-Common platforms chapter use include LinkedIn, Twitter/X, Facebook, or Meetup. Your chapter repository should include links to all your active social channels for easy access by community members.
-
-## 4. Choose Your Event Management Platform
-
-Select a free or low-cost platform for hosting and promoting your chapter events. Popular options include:
-
-- **Meetup.com** - Community-focused event platform with strong discovery and RSVP features
-- **Eventbrite** - Free tier available for online and in-person events
-- **GitHub Discussions** - Host event planning discussions directly in your chapter repository
-- **Discord Events** - Use Discord's built-in event scheduling within your server channels
-
-Document your event platform choice in your chapter's README so members know where to find upcoming events.
+Common platforms chapters use include LinkedIn, Twitter/X, and Meetup. Add your social links to your chapter page via the Dashboard's **Edit Chapter** section so community members can find and follow you.
 
 ## 5. Review Key Documentation
 
 Before hosting your first event, please familiarize yourself with:
 
-- [**Chapter Leadership Guide**](./chapter-leadership-guide.md) - Step-by-step guidance for planning and executing successful events, engaging attendees, and building community momentum
-- [**Community Branding Standards**](./community-branding-standards.md) - Guidelines for representing the Global Security Community professionally across all materials and communications
+- [**Chapter Leadership Guide**](./chapter-leadership-guide.md) — Step-by-step guidance for planning and executing successful events, engaging attendees, and building community momentum
+- [**Community Branding Standards**](./community-branding-standards.md) — Guidelines for representing the Global Security Community professionally across all materials and communications
+- [**Platform Guide**](./platform/dashboard.md) — How to use the Dashboard to create events, manage volunteers, and track attendance
 
 ## 6. Attend Your Onboarding Session
 
@@ -63,6 +66,7 @@ All new chapter leaders are invited to participate in a structured onboarding se
 
 - Community expectations and chapter responsibilities
 - Planning and hosting your inaugural event
+- Using the Dashboard to create events and manage attendance
 - Building and engaging your local membership
 - Access to ongoing support resources
 
@@ -74,8 +78,8 @@ These sessions are scheduled regularly. Details are shared in the Discord #chapt
 
 After completing these onboarding steps, you'll be ready to:
 
-- Design and plan your first chapter event
-- Announce your event through community channels
+- Create your first event from the [Dashboard](platform/dashboard.md)
+- Share it through your social channels and Discord
 - Build and energize your local security community
 
 We're excited to support you as you launch and grow your chapter!
