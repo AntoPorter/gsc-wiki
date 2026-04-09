@@ -35,6 +35,58 @@ Requires the **admin** role. Only approved chapter leads are automatically assig
 
 - **Event Status** — Update event status (open, closed, completed)
 
+### Sessionize Setup
+
+Before creating an event, you can optionally set up [Sessionize](https://sessionize.com) to manage session submissions, speaker information, and event scheduling. The Sessionize API ID is entered during event creation on the dashboard.
+
+#### Step 1: Create and Configure a Sessionize Event
+
+1. Go to [Sessionize.com](https://sessionize.com) and create an account if you don't have one
+2. Create a new event for your bootcamp
+3. Set it up with as much detail as possible:
+    - Event name and description
+    - Event dates
+    - Location information
+    - Social media and website links
+
+#### Step 2: Apply for Free Community License
+
+Sessionize offers free licenses for community-run, volunteer-organized events. To apply:
+
+1. Visit https://sessionize.com/playbook/community-license
+2. Scroll to the "How to request a free community license?" section
+3. Click **Community License Request Form**
+4. Fill out the form with the following information:
+    - **Who Can Attend** — Anyone (open to the public)
+    - **How Much do the tickets cost** — 0 (free event)
+    - **Who is organising the event** — A group of individuals
+    - **Are the organisers paid** — No, they are volunteers
+    - **Does the event make a profit** — No, the organisers cover the cost to keep it running
+    - **Link the community website** — Link to the global security community website or your associated chapter page
+    - **Comment or Remark** — Include a statement such as:
+        > "As a volunteer‑run, free event, we truly appreciate tools that empower community initiatives without adding financial strain. Sessionize's support would make a real difference in helping us deliver an impactful and free experience for our attendees."
+    - **Full name** — Name of the person responsible for the submission
+5. Submit the form
+
+!!! note
+    It may take up to 24 hours (or longer during weekends and holidays) for the community license request to be reviewed and manually activated. Plan ahead when scheduling your event. If you have questions, contact Sessionize Support.
+
+#### Step 3: Set Up Sessionize API
+
+Once your Sessionize event is created and your community license is activated, configure the API endpoint:
+
+1. In your Sessionize event dashboard, navigate to **API / Embed**
+2. Click **Create a New Endpoint**
+3. Set the format to **JSON**
+4. Keep all other configuration settings at their defaults
+5. After creation, you'll receive an **Endpoint ID** — save this ID, as you'll need it when creating your event
+
+!!! tip "Using the Sessionize API ID"
+    When creating or editing an event on the [Dashboard](dashboard.md), paste the Sessionize Endpoint ID in the **Sessionize API ID** field. Once configured, the event detail page will automatically fetch and display:
+    - Session agenda and schedule
+    - Speaker profiles and bios
+    - Call for papers information
+
 ### Volunteers / Committee
 
 - **Volunteer Interest** — Attendees who expressed volunteer interest during registration are shown with a 🙋 icon in the attendance list, making it easy to identify potential volunteers
