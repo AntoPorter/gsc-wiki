@@ -36,6 +36,16 @@ Each event has its own page at `/events/{slug}/` which includes:
     - Session agenda / schedule
     - Speaker profiles and bios
 
+## Sessionize Integration
+
+Each event can optionally integrate with [Sessionize](https://sessionize.com), a platform for managing talk submissions, speaker information, and event schedules. When a Sessionize API ID is configured:
+
+- **Session Agenda** — Attendees can view the complete event schedule and session details
+- **Speaker Information** — Speaker profiles and bios are automatically populated on the event page
+- **Call for Papers** — Speakers can submit session proposals directly through Sessionize
+
+To set up Sessionize for an event, see the [Sessionize Setup](dashboard.md#sessionize-setup) section in the Dashboard documentation.
+
 ## Related Pages
 
 - [Registration](registration.md) — How attendees register for events
